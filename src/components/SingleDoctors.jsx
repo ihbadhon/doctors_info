@@ -7,8 +7,8 @@ const SingleDoctors = () => {
   const { singledctr } = location.state || {};
 
   return (
-    <div className="grid grid-cols-1">
-      <SingleDoctor singledctr={singledctr}></SingleDoctor>
+    <div className="grid grid-cols-1 gap-8 p-20">
+      <SingleDoctor key={singledctr.id} singledctr={singledctr}></SingleDoctor>
     </div>
   );
 };

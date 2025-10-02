@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-
+import "../App.css";
 const Navbar = () => {
   return (
     <div>
@@ -28,11 +28,11 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <NavLink to={"/"}>Home</NavLink>
               </li>
-              <li>
-                <a>Parent</a>
-                {/* <ul className="p-2">
+              {/* <li> */}
+              {/* <a>Parent</a> */}
+              {/* <ul className="p-2">
                   <li>
                     <a>Submenu 1</a>
                   </li>
@@ -40,9 +40,12 @@ const Navbar = () => {
                     <a>Submenu 2</a>
                   </li>
                 </ul> */}
+              {/* </li> */}
+              <li>
+                <NavLink to={"/blogs"}>blogs</NavLink>
               </li>
               <li>
-                <a>Item 3</a>
+                <NavLink>contacts</NavLink>
               </li>
             </ul>
           </div>
@@ -70,10 +73,10 @@ const Navbar = () => {
               <NavLink to={"/booked"}>my-bookings</NavLink>
             </li>
             <li>
-              <NavLink to={"/"}>blogs</NavLink>
+              <NavLink to={"/blogs"}>blogs</NavLink>
             </li>
             <li>
-              <NavLink to="/">contacts</NavLink>
+              <NavLink to={"/contacts"}>contacts</NavLink>
             </li>
           </ul>
         </div>

@@ -1,12 +1,12 @@
-import { useDoctor } from "../Context/DoctorContext";
+import MyAppointments from "../components/myAppointments/MyAppointments";
 
 const Booked = () => {
-  const { bookmarkedDoctors, removeBookmark } = useDoctor();
-  console.log(bookmarkedDoctors);
+  // const { bookmarkedDoctors, removeBookmark } = useDoctor();
+  // console.log(bookmarkedDoctors);
 
   return (
     <div>
-      <h1>booked</h1>
+      <MyAppointments></MyAppointments>
     </div>
   );
 };

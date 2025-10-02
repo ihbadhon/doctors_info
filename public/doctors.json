@@ -9,7 +9,7 @@
     "registrationNumber": "REG12345",
     "designation": "Senior Consultant",
     "workplace": "City Heart Hospital",
-    "fee": "$100",
+    "fee": 100,
     "availability": ["Monday", "Wednesday", "Friday"]
   },
   {
@@ -22,7 +22,7 @@
     "registrationNumber": "REG23456",
     "designation": "Consultant",
     "workplace": "Downtown Orthopedic Center",
-    "fee": "$120",
+    "fee": 120,
     "availability": ["Tuesday", "Thursday", "Saturday"]
   },
   {
@@ -35,7 +35,7 @@
     "registrationNumber": "REG34567",
     "designation": "Pediatric Specialist",
     "workplace": "Sunshine Children Hospital",
-    "fee": "$90",
+    "fee": 500,
     "availability": ["Monday", "Tuesday", "Friday"]
   },
   {
@@ -48,7 +48,7 @@
     "registrationNumber": "REG45678",
     "designation": "Senior Neurologist",
     "workplace": "NeuroCare Center",
-    "fee": "$150",
+    "fee": 670,
     "availability": ["Wednesday", "Thursday", "Saturday"]
   },
   {
@@ -61,7 +61,7 @@
     "registrationNumber": "REG56789",
     "designation": "Skin Specialist",
     "workplace": "Glow Skin Clinic",
-    "fee": "$80",
+    "fee": 560,
     "availability": ["Monday", "Wednesday", "Friday"]
   },
   {
@@ -74,7 +74,7 @@
     "registrationNumber": "REG67890",
     "designation": "Consultant ENT",
     "workplace": "Harmony ENT Clinic",
-    "fee": "$95",
+    "fee": 900,
     "availability": ["Tuesday", "Thursday", "Saturday"]
   },
   {
@@ -87,7 +87,7 @@
     "registrationNumber": "REG78901",
     "designation": "Senior Consultant",
     "workplace": "City Women’s Hospital",
-    "fee": "$110",
+    "fee": 1000,
     "availability": ["Monday", "Thursday", "Friday"]
   },
   {
@@ -100,7 +100,7 @@
     "registrationNumber": "REG89012",
     "designation": "Chief Surgeon",
     "workplace": "Central Hospital",
-    "fee": "$130",
+    "fee": 1200,
     "availability": ["Tuesday", "Wednesday", "Saturday"]
   },
   {
@@ -113,7 +113,7 @@
     "registrationNumber": "REG90123",
     "designation": "Eye Specialist",
     "workplace": "Vision Care Clinic",
-    "fee": "$85",
+    "fee": 800,
     "availability": ["Monday", "Wednesday", "Friday"]
   },
   {
@@ -126,7 +126,7 @@
     "registrationNumber": "REG01234",
     "designation": "Senior Consultant",
     "workplace": "HeartCare Hospital",
-    "fee": "$140",
+    "fee": 700,
     "availability": ["Tuesday", "Thursday", "Saturday"]
   },
   {
@@ -139,7 +139,7 @@
     "registrationNumber": "REG11223",
     "designation": "Consultant Psychiatrist",
     "workplace": "MindCare Clinic",
-    "fee": "$100",
+    "fee": 400,
     "availability": ["Monday", "Tuesday", "Thursday"]
   },
   {
@@ -152,7 +152,7 @@
     "registrationNumber": "REG22334",
     "designation": "Senior Consultant",
     "workplace": "City Urology Hospital",
-    "fee": "$120",
+    "fee": 1500,
     "availability": ["Wednesday", "Friday", "Saturday"]
   }
 ]

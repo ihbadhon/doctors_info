@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLoaderData } from "react-router";
 import AllDoctorsDetail from "./AllDoctorsDetail";
+import Counting from "./Counting";
 
 const AllDoctors = () => {
   const data = useLoaderData();
@@ -37,6 +38,8 @@ const AllDoctors = () => {
           {showAll ? "view less" : "view all"}
         </button>
       </div>
+
+      <Counting></Counting>
     </div>
   );
 };

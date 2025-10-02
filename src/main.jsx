@@ -7,7 +7,9 @@ import { RouterProvider } from "react-router/dom";
 import AllDoctors from "./components/AllDoctors.jsx";
 import root from "./components/root.jsx";
 import SingleDoctors from "./components/SingleDoctors.jsx";
+import Blogs from "./pages/Blogs.jsx";
 import Booked from "./pages/Booked.jsx";
+import Contacts from "./pages/Contacts.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +39,16 @@ const router = createBrowserRouter([
       {
         path: "singleDoctor",
         Component: SingleDoctors,
+      },
+
+      {
+        path: "blogs",
+        Component: Blogs,
+      },
+
+      {
+        path: "contacts",
+        Component: Contacts,
       },
     ],
   },

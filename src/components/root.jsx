@@ -5,10 +5,12 @@ import Navbar from "./Navbar";
 
 const root = () => {
   return (
-    <div className="w-11/12 m-auto">
+    <div className="bg-gray-100">
       <Navbar></Navbar>
       <DoctorProvider>
-        <Outlet></Outlet>
+        <div className="w-11/12 m-auto">
+          <Outlet></Outlet>
+        </div>
       </DoctorProvider>
 
       <Footer></Footer>

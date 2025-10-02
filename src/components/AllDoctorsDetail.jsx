@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const AllDoctorsDetail = ({ singledctr }) => {
   return (
     <div className="w-full flex">
-      <div className="card bg-base-100 w-96 shadow-sm">
+      <div className="card bg-base-100 w-96 shadow-sm p-2">
         <figure>
           <img src={singledctr.image} alt="Shoes" />
         </figure>
