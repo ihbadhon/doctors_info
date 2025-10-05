@@ -7,9 +7,10 @@ import SectionColor from "./SectionColor";
 const AllDoctors = () => {
   const data = useLoaderData();
   // console.log(data);
-  console.log( Date.prototype.getDate(););
-  
-  // console.log(time);
+
+  const today = new Date();
+  console.log(today.getDay());
+  console.log(today.getFullYear());
 
   const [showAll, SetshowAll] = useState(false);
   const visibleData = showAll
