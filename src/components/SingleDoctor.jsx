@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDoctor } from "../Context/DoctorContext";
+import SectionColor from "./SectionColor";
 
 const SingleDoctor = ({ singledctr }) => {
   const { addBookmark, bookmarkedDoctors } = useDoctor();
@@ -15,10 +16,11 @@ const SingleDoctor = ({ singledctr }) => {
   };
 
   return (
-    <div className="p-15">
+    <div className="md:p-15 p-5 ">
       <div className="flex justify-center flex-col place-items-center text-center mb-14">
-        <h1 className="font-bold text-2xl">Doctor’s Profile Details</h1>
-        <p className="w-11/12 text-gray-500">
+        <h1 className="font-bold text-2xl ">Doctor’s Profile Details</h1>
+        <SectionColor></SectionColor>
+        <p className="md:w-11/12 text-gray-500 mt-3">
           Lorem ipsum dolor sit amet consectetur. Sit enim blandit orci tortor
           amet ut. Suscipit sed est fermentum magna. Quis vitae tempus facilisis
           turpis imperdiet mattis donec dignissim volutpat.

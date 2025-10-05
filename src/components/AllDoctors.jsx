@@ -2,9 +2,15 @@ import { useState } from "react";
 import { useLoaderData } from "react-router";
 import AllDoctorsDetail from "./AllDoctorsDetail";
 import Counting from "./Counting";
+import SectionColor from "./SectionColor";
 
 const AllDoctors = () => {
   const data = useLoaderData();
+  // console.log(data);
+  console.log( Date.prototype.getDate(););
+  
+  // console.log(time);
+
   const [showAll, SetshowAll] = useState(false);
   const visibleData = showAll
     ? data
@@ -13,7 +19,10 @@ const AllDoctors = () => {
   return (
     <div>
       <div className="grid place-items-center pb-8 pt-15 w-9/12 m-auto text-center">
-        <h1 className="font-bold text-3xl text-center">Our Best Doctors</h1>
+        <h1 className="font-bold text-3xl text-center mb-5">
+          Our Best Doctors
+          <SectionColor></SectionColor>
+        </h1>
         <div>
           <p>
             Our platform connects you with verified, experienced doctors across

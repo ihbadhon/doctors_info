@@ -13,14 +13,16 @@ const AppointmentDetail = ({ book, handleFlag }) => {
   return (
     <div className=" p-8 rounded-2xl border-1 border-blue-200 mb-10 bg-blue-50">
       <div className="">
-        <div className="flex justify-between pb-5">
+        <div className="flex justify-between pb-4">
           <div className="grid grid-cols-1">
             <div className="font-bold ">{book.name}</div>
             <div className=" text-sm">
               {book.education}-{book.speciality}
             </div>
           </div>
-          <div className="text-sm">Appointment fee: {book.fee} tk</div>
+          <div className="text-sm text-center my-auto">
+            Appointment fee: {book.fee} tk
+          </div>
         </div>
       </div>
       <hr></hr>

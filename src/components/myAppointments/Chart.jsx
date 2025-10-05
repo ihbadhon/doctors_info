@@ -8,7 +8,7 @@ const Chart = () => {
   console.log(bookmarkedDoctors);
 
   return (
-    <div className="items-center bg-base-100">
+    <div className="items-center bg-base-100  pt-20">
       {bookmarkedDoctors.length >= 1 ? (
         <BarChart width={800} height={400} data={bookmarkedDoctors}>
           <XAxis dataKey="name" stroke="#8884d8" />

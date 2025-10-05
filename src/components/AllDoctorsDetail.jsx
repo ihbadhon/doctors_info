@@ -19,7 +19,7 @@ const AllDoctorsDetail = ({ singledctr }) => {
             <hr className="border-t-1 border-dashed border-gray-300 my-1" />
             Reg No: {singledctr.registrationNumber}
           </div>
-          <div className="card-actions  w-full  ">
+          <div className="card-actions  w-full flex justify-center  ">
             {/* <div className="badge badge-outline">Fashion</div> */}
             {/* <div className="badge badge-outline">Products</div> */}
             <Link to={"/singleDoctor"} state={{ singledctr }}>

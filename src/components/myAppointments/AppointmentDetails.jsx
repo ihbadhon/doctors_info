@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDoctor } from "../../Context/DoctorContext";
+import SectionColor from "../SectionColor";
 import AppointmentDetail from "./AppointmentDetail";
 
 const AppointmentDetails = () => {
@@ -17,13 +18,14 @@ const AppointmentDetails = () => {
       <div className="">
         <div className="mb-10 grid place-items-center">
           <h1 className="font-bold text-2xl">My Today Appointments</h1>
-          <p className="text-[14px] pt-2">
+          <SectionColor></SectionColor>
+          <p className="text-[14px] pt-2 pl-5 pr-5 text-center">
             Our platform connects you with verified, experienced doctors across
             various specialties — all at your convenience.
           </p>
         </div>
       </div>
-      <div className="w-8/12 m-auto">
+      <div className="w-10/12 m-auto md:w-8/12">
         {bookmarkedDoctors.map((book) => {
           return (
             <AppointmentDetail
